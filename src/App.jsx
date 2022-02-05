@@ -1,9 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/sidebar/sidebar.jsx';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
-   <h1>Hello, World!</h1>
+   <div className='App'>
+     <Router>
+       <Sidebar />
+       <Navbar />
+       <Routes>
+          <Route path='/' />
+       </Routes>
+     </Router>
+   </div>
   );
 }
 

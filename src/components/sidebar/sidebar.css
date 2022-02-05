@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar{
+    font-size: 36px;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    bottom: 0;
+    left: 3%;
+    width: 30px;
+    height: 100vh;
+    align-content: flex-end;
+}
+
+.v1{
+    border-left: 4px solid #4FCCA3;
+    height: 200px;
+}
+
+.icons{
+    color: #4FCCA3;
+    font-size: 48px;
+}

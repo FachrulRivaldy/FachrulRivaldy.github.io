@@ -1,5 +1,8 @@
 import React from 'react';
 import './content.css';
+import Andro from '../assets/images/androgif.gif';
+import Flutter from '../assets/images/flutter.png';
+import Kotlin from '../assets/images/kotlin.png';
 
 function Content() {
   return (
@@ -12,9 +15,9 @@ function Content() {
                     <div className="my-desc-a"> Mobile Developer.</div>
                 </div>
                 <div className="prog-lang">
-                    <img src="assets/img/androgif.gif" className="androgif"/>
-                    <img src="assets/img/flutter.png"/>
-                    <img src="assets/img/kotlin.png"/>
+                    <img src={Andro} className="androgif"/>
+                    <img src={Flutter}/>
+                    <img src={Kotlin}/>
                 </div>
             </div>
         <div className="android">

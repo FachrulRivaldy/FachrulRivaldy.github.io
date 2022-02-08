@@ -6,17 +6,17 @@ import * as AiIcons from "react-icons/ai"
 function Sidebar(){
     return (
         <div className="sidebar">
-            <div className="icons">
+            <div>
                 <Link to="https://github.com/FachrulRivaldy" className="icons">
                     <AiIcons.AiFillGithub/>
                 </Link>
             </div>
-            <div className="icons">
+            <div>
                 <Link to="https://www.linkedin.com/in/fachrulrivaldy/" className="icons">
                     <AiIcons.AiFillLinkedin/>
                 </Link>
             </div>
-            <div className="icons">
+            <div>
                 <Link to="https://www.instagram.com/fachrulrivaldy/" className="icons">
                     <AiIcons.AiFillInstagram/>
                 </Link>

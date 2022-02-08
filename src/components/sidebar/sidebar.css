@@ -22,6 +22,19 @@
 }
 
 .icons{
-    color: #4FCCA3;
+    /* color: #4FCCA3; */
     font-size: 48px;
+}
+
+.icons:link{
+    color:#4FCCA3;
+}
+.icons:visited{
+    color:#4FCCA3;
+}
+.icons:hover{
+    color: #EEEEEE;
+}
+.icons:active{
+    color:#EEEEEE;
 }

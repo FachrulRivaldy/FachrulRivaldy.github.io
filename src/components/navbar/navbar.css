@@ -18,10 +18,25 @@
     display: flex;
     width: 550px;
     padding: 0px 5px;
+    align-items: center;
 }
 
 .navbar-text{
     padding: 5px 20px;
+    text-decoration: none;
+}
+
+.navbar-text:link{
+    color:#EEEEEE;
+}
+.navbar-text:visited{
+    color:#EEEEEE;
+}
+.navbar-text:hover{
+    color: #4FCCA3;
+}
+.navbar-text:active{
+    color:#4FCCA3;
 }
 
 .resume-text{

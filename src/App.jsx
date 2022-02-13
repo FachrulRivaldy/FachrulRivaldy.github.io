@@ -2,7 +2,8 @@ import './App.css';
 import Sidebar from './components/sidebar/sidebar.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar/navbar';
-import Content from './components/content/content';
+import Home from './components/content/home';
+import AboutMe from './components/content/aboutme';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
      <Router>
        <Sidebar />
        <Navbar />
-       <Content />
+       <Home />
+       <AboutMe />
        <Routes>
           <Route path='/' />
        </Routes>

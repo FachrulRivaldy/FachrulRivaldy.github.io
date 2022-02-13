@@ -1,0 +1,17 @@
+.AboutMe{
+    top: 1200px;
+    width: auto;
+    height: 100%;
+    margin-left: center;
+    top: 50%;
+    color:#EEEEEE;
+}
+
+.Container{
+    height: 100%;
+}
+
+.desc{
+    top: 50%;
+    left: 50%;
+}

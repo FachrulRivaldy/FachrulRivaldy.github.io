@@ -1,6 +1,14 @@
+.body{
+  display: block;
+}
+
+.allcontent{
+  height: 5000px;
+}
+
 .content{
     width: auto;
-    height: auto;
+    height: 100vh;
     margin-left: center;
     top: 50%;
     color:#EEEEEE;
@@ -169,7 +177,7 @@
 /* GENERAL STYLE */
 
 .andy, .head, .antennas, .left-antenna, .right-antenna, .eyes,
-.left-eye, .right-eye, .body, .arms, .left-arm, .right-arm, .legs,
+.left-eye, .right-eye, .bodys, .arms, .left-arm, .right-arm, .legs,
 .left-leg, .right-leg {
   margin: 0;
 	padding: 0;
@@ -193,11 +201,11 @@
   list-style-type: none;
 }
 
-.head, .left-antenna, .right-antenna, .body, .left-arm, .right-arm, .left-leg, .right-leg {
+.head, .left-antenna, .right-antenna, .bodys, .left-arm, .right-arm, .left-leg, .right-leg {
   background-color: #4FCCA3;
 }
 
-.head, .body {
+.head, .bodys {
   display: block;
   margin: auto;
 }
@@ -272,7 +280,7 @@
 
 /* BODY */
 
-.body {
+.bodys {
   position: relative;
   top: 0.36em;
   width: 9.2em;

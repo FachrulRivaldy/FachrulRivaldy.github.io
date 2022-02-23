@@ -1,11 +1,9 @@
 body{
   background-color: #242A32;
-  display: flex;
   margin: 0px;
   /* -webkit-transform: translate3D(0, 0, 0); */
   /* transform: translate3D(0, 0, 0); */
-  overflow: hidden;
-  height: 200vh;
+  /* overflow: visible; */
 }
 
 code {

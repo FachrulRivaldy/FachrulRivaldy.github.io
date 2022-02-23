@@ -6,7 +6,7 @@
 
 .sidebar{
     font-size: 36px;
-    position: absolute;
+    position: fixed;
     display: grid;
     place-items: center;
     bottom: 0;

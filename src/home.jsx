@@ -1,9 +1,9 @@
 import React from 'react';
 import "./home.css";
 // import AboutMe from "./aboutme";
-import Andro from '../assets/images/androgif.gif';
-import Flutter from '../assets/images/flutter.png';
-import Kotlin from '../assets/images/kotlin.png';
+import Andro from './components/assets/androgif.gif';
+import Flutter from './components/assets/flutter.png';
+import Kotlin from './components/assets/kotlin.png';
 
 function Home() {
     return (

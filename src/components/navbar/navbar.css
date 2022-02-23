@@ -1,11 +1,14 @@
 .navbar{
+    background-color: #242A32;
     width: 100vw;
+    position: fixed;
     color: #EEEEEE;
     display: flex;
     justify-content: space-between;
     padding: 25px 0px;
     text-align: center;
     font-size: 16px;
+    z-index: 1;
 }
 
 .left-navbar{

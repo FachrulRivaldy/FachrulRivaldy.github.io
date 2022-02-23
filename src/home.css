@@ -1,25 +1,28 @@
-.body{
+body{
   display: block;
+  
 }
 
 .allcontent{
-  height: 5000px;
+  height: 1200px;
 }
 
 .content{
     width: auto;
-    height: 100vh;
+    height: auto;
     margin-left: center;
     top: 50%;
     color:#EEEEEE;
 }
 
 .landingpage{
+    
     display: flex;
     padding: 10% 0px;
 }
 
 .description{
+    margin-top:90px;
     padding: 0px 150px;
 }
 
@@ -165,6 +168,7 @@
 
 .android{
     padding: 0px 150px;
+    margin-top:90px;
 }
 
 .icons{

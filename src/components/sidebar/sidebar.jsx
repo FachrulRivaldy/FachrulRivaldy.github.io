@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './sidebar.css';
 import * as AiIcons from 'react-icons/ai';
 import { ExternalLink } from 'react-external-link';

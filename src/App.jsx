@@ -9,11 +9,11 @@ import Router from './router';
 function App() {
   return (
     <BrowserRouter>
-    <div className='App'>
-      <Sidebar />
-      <Navbar />
-      <Router />
-    </div>
+      <div className='App'>
+        <Sidebar />
+        <Navbar />
+        <Router />
+      </div>
     </BrowserRouter>
   );
 }

@@ -1,40 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.sidebar{
-    font-size: 36px;
-    position: fixed;
-    display: grid;
-    place-items: center;
-    bottom: 0;
-    left: 3%;
-    width: 30px;
-    height: 100vh;
-    align-content: flex-end;
+.sidebar {
+  font-size: 36px;
+  position: fixed;
+  display: grid;
+  place-items: center;
+  bottom: 0;
+  left: 3%;
+  width: 30px;
+  height: 100vh;
+  align-content: flex-end;
 }
 
-.v1{
-    border-left: 4px solid #4FCCA3;
-    height: 200px;
+.v1 {
+  border-left: 4px solid #4fcca3;
+  height: 200px;
 }
 
-.icons{
-    /* color: #4FCCA3; */
-    font-size: 48px;
+.icons {
+  /* color: #4FCCA3; */
+  font-size: 48px;
 }
 
-.icons:link{
-    color:#4FCCA3;
+.icons:link {
+  color: #4fcca3;
 }
-.icons:visited{
-    color:#4FCCA3;
+.icons:visited {
+  color: #4fcca3;
 }
-.icons:hover{
-    color: #EEEEEE;
+.icons:hover {
+  color: #eeeeee;
 }
-.icons:active{
-    color:#EEEEEE;
+.icons:active {
+  color: #eeeeee;
 }

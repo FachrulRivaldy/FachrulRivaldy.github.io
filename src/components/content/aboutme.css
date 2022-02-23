@@ -1,17 +1,17 @@
-.AboutMe{
-    top: 1200px;
-    width: auto;
-    height: 100%;
-    margin-left: center;
-    top: 50%;
-    color:#EEEEEE;
+.AboutMe {
+  top: 1200px;
+  width: auto;
+  height: 100%;
+  margin-left: center;
+  top: 50%;
+  color: #eeeeee;
 }
 
-.Container{
-    height: 100%;
+.Container {
+  height: 100%;
 }
 
-.desc{
-    top: 50%;
-    left: 50%;
+.desc {
+  top: 50%;
+  left: 50%;
 }

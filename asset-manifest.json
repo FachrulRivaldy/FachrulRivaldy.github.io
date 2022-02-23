@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.038be206.css",
-    "main.js": "/static/js/main.cadd6015.js",
+    "main.css": "/static/css/main.a4865f7c.css",
+    "main.js": "/static/js/main.e2ca487f.js",
     "static/js/787.3e3820d7.chunk.js": "/static/js/787.3e3820d7.chunk.js",
     "static/media/androgif.gif": "/static/media/androgif.cc0995de627497f9afd5.gif",
     "static/media/kotlin.png": "/static/media/kotlin.9327ed0d24bb59871c34.png",
     "static/media/flutter.png": "/static/media/flutter.ca94ec2db8f81a675d8b.png",
     "index.html": "/index.html",
-    "main.038be206.css.map": "/static/css/main.038be206.css.map",
-    "main.cadd6015.js.map": "/static/js/main.cadd6015.js.map",
+    "main.a4865f7c.css.map": "/static/css/main.a4865f7c.css.map",
+    "main.e2ca487f.js.map": "/static/js/main.e2ca487f.js.map",
     "787.3e3820d7.chunk.js.map": "/static/js/787.3e3820d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.038be206.css",
-    "static/js/main.cadd6015.js"
+    "static/css/main.a4865f7c.css",
+    "static/js/main.e2ca487f.js"
   ]
 }

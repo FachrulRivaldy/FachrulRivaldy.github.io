@@ -2,24 +2,25 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./sidebar.css";
 import * as AiIcons from "react-icons/ai"
+import { ExternalLink } from 'react-external-link';
 
 function Sidebar(){
     return (
         <div className="sidebar">
             <div>
-                <Link to="https://github.com/FachrulRivaldy" className="icons">
-                    <AiIcons.AiFillGithub/>
-                </Link>
+            <ExternalLink href="https://github.com/FachrulRivaldy" className="icons">
+                <AiIcons.AiFillGithub/>
+            </ExternalLink>    
             </div>
             <div>
-                <Link to="https://www.linkedin.com/in/fachrulrivaldy/" className="icons">
+                <ExternalLink href="https://www.linkedin.com/in/fachrulrivaldy/" className="icons">
                     <AiIcons.AiFillLinkedin/>
-                </Link>
+                </ExternalLink>
             </div>
             <div>
-                <Link to="https://www.instagram.com/fachrulrivaldy/" className="icons">
+                <ExternalLink href="https://www.instagram.com/fachrulrivaldy/" className="icons">
                     <AiIcons.AiFillInstagram/>
-                </Link>
+                </ExternalLink>
             </div>
             <div className="v1"></div>
         </div>
